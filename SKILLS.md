@@ -35,3 +35,10 @@ Analyze observations without combining incompatible units, populations or method
 - Codex/repository agents: `.agents/skills/<skill-name>/SKILL.md`.
 - Claude Code: `.claude/skills/<skill-name>/SKILL.md`.
 - Other models: read this index and open the canonical skill. Claude entries are short pointers to canonical text; keep paths synchronized.
+
+## `multi-agent-review-handoff`
+
+Coordinate paper research, evidence extraction, implementation, independent methodological review and verification for Asimov-Meter. Use for source ingestion, schema or analysis changes.
+
+- Canonical: [`.agents/skills/multi-agent-review-handoff/SKILL.md`](.agents/skills/multi-agent-review-handoff/SKILL.md)
+- Claude discovery: [`.claude/skills/multi-agent-review-handoff/SKILL.md`](.claude/skills/multi-agent-review-handoff/SKILL.md)
