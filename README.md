@@ -99,3 +99,7 @@ See [Methodology](docs/METHODOLOGY.md) and [Data dictionary](docs/DATA_DICTIONAR
 ## Not implemented
 
 Automatic web collection, causal inference, cross-domain normalization, prediction, policy recommendations, dashboards, source-credibility scoring and a global AI-impact index are deliberately outside this first MVP.
+
+## Working with coding agents
+
+Start with [`AGENTS.md`](AGENTS.md) for repository-wide invariants, architecture, commands and review rules. Use [`SKILLS.md`](SKILLS.md) to select a task-specific workflow. Canonical skills are stored in `.agents/skills/`; Claude Code discovery entries are stored in `.claude/skills/`. Read the relevant skill before changing domain logic. All agent output remains subject to human review; documentation and tests do not replace scientific, operational or safety validation.
