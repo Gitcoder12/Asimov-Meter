@@ -1,0 +1,17 @@
+{
+  "id": "REPLACE_WITH_UNIQUE_ID",
+  "system": "REPLACE_WITH_SYSTEM_NAME",
+  "sector": "REPLACE_WITH_SECTOR",
+  "indicator": "REPLACE_WITH_EXACT_INDICATOR_NAME",
+  "direction": "unknown",
+  "value": 0,
+  "unit": "REPLACE_WITH_UNIT",
+  "period_start": "YYYY-MM-DD",
+  "period_end": "YYYY-MM-DD",
+  "population": "REPLACE_WITH_MEASURED_POPULATION_OR_SCOPE",
+  "method": "REPLACE_WITH_STUDY_DESIGN_OR_MEASUREMENT_METHOD",
+  "source_url": "https://REPLACE-WITH-REAL-SOURCE-URL",
+  "verification": "reported",
+  "notes": "TEMPLATE ONLY. Not a real study finding. Replace every placeholder after reading a real source.",
+  "recorded_at": "YYYY-MM-DDTHH:MM:SS+00:00"
+}
