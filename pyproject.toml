@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asimov-meter"
+version = "0.1.0"
+description = "Evidence-first ledger for sourced AI and robotics impact observations"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Gitcoder12" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.scripts]
+asimov-meter = "asimov_meter:main"
+
+[tool.setuptools]
+py-modules = ["asimov_meter"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
