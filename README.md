@@ -103,3 +103,23 @@ Automatic web collection, causal inference, cross-domain normalization, predicti
 ## Working with coding agents
 
 Start with [`AGENTS.md`](AGENTS.md) for repository-wide invariants, architecture, commands and review rules. Use [`SKILLS.md`](SKILLS.md) to select a task-specific workflow. Canonical skills are stored in `.agents/skills/`; Claude Code discovery entries are stored in `.claude/skills/`. Read the relevant skill before changing domain logic. All agent output remains subject to human review; documentation and tests do not replace scientific, operational or safety validation.
+
+---
+
+## Engineering Audit & Handover — 2026-11-17
+
+**Reviewed commit:** `243f5287e5d9ea37dc0a13f6dbbaf379e2e52b31` (`main`). Static inspection covered the ledger implementation, methodology, data file, and tests; tests were not executed.
+
+### Confirmed findings
+- The ledger is intentionally empty (`data/observations.json` contains `[]`); no impact observations or findings are preloaded.
+- The implementation validates required metadata, finite numeric values, date ordering, HTTP(S) source URLs, and duplicate observation IDs. Ledger saving uses an atomic temporary-file replacement path.
+- The methodology correctly states that `independently_verified` is a human-entered label; the application does not authenticate reviewers or automatically verify sources.
+- The methodology also warns that grouping by matching fields does not prove scientific comparability and that observational association does not establish causality.
+- The tests cover validation, grouping separation, duplicate IDs, and ledger round-trip behavior. They were not run in this audit.
+
+### Next actions
+1. Run the full unittest suite and CI; preserve the exact result.
+2. Add a documented human-review workflow and provenance record for who checked each extraction and when.
+3. Add benchmark/fixture cases for malformed URLs, Unicode/large notes, export consistency, and interrupted writes.
+
+**Verification status:** static source/test/methodology inspection only; test execution and real evidence-entry workflow remain unverified.
