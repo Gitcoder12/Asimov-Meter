@@ -48,7 +48,7 @@ def company_mindmap(catalogue: dict[str, Any]) -> str:
         lines.append(f"    {_mermaid_safe(company['company'])}")
         lines.append(f"      {_mermaid_safe(company.get('sector', 'Unclassified'))}")
         for product in company["products"]:
-            lines.append(f"      {_mermaid_safe(product['name'])}")
+            lines.append(f"        {_mermaid_safe(product['name'])}")
     return "\n".join(lines)
 
 
