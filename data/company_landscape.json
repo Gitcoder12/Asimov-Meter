@@ -7,7 +7,7 @@
     {"company":"OpenAI","sector":"frontier AI and developer platform","products":[
       {"name":"Responses API","category":"model API","source_url":"https://developers.openai.com/api/docs"},
       {"name":"Agents SDK","category":"agent orchestration SDK","source_url":"https://developers.openai.com/api/docs/guides/agents"},
-      {"name":"GPT-Live-1","category":"real-time voice model/API","source_url":"https://openai.com/api/"}
+      {"name":"GPT-Live-1.1","category":"real-time voice model/API","source_url":"https://openai.com/api/"}
     ]},
     {"company":"Anthropic","sector":"frontier AI and developer platform","products":[
       {"name":"Claude Opus 5.5","category":"frontier model","source_url":"https://platform.claude.com/docs/en/models/overview"},
