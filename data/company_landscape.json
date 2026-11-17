@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "catalogue_type": "company_product_service_landscape",
+  "last_reviewed": "2026-11-17",
+  "evidence_rule": "This is a directory of public product and service claims, not a ranking or independent safety assessment.",
+  "companies": [
+    {"company":"OpenAI","sector":"frontier AI and developer platform","products":[
+      {"name":"Responses API","category":"model API","source_url":"https://developers.openai.com/api/docs"},
+      {"name":"Agents SDK","category":"agent orchestration SDK","source_url":"https://developers.openai.com/api/docs/guides/agents"},
+      {"name":"GPT-Live-1.1","category":"real-time voice model/API","source_url":"https://openai.com/api/"}
+    ]},
+    {"company":"Anthropic","sector":"frontier AI and developer platform","products":[
+      {"name":"Claude Opus 5.5","category":"frontier model","source_url":"https://platform.claude.com/docs/en/models/overview"},
+      {"name":"Claude Fable 5.2","category":"long-horizon reasoning model","source_url":"https://platform.claude.com/docs/en/models/overview"},
+      {"name":"Claude Sonnet 5.5","category":"general-purpose model","source_url":"https://platform.claude.com/docs/en/models/overview"},
+      {"name":"Claude Haiku 5.5","category":"low-latency model","source_url":"https://platform.claude.com/docs/en/models/overview"},
+      {"name":"Claude Code","category":"coding agent","source_url":"https://www.anthropic.com/claude-code"}
+    ]},
+    {"company":"Google DeepMind","sector":"frontier AI and embodied robotics","products":[
+      {"name":"Gemini Robotics 2.5","category":"vision-language-action model","source_url":"https://deepmind.google/models/gemini-robotics/"},
+      {"name":"Gemini Robotics ER 2","category":"embodied reasoning model","source_url":"https://deepmind.google/models/gemini-robotics/"},
+      {"name":"Gemini Robotics On-Device 2","category":"on-device robotics model","source_url":"https://deepmind.google/models/gemini-robotics/"}
+    ]},
+    {"company":"NVIDIA","sector":"robotics compute and development platform","products":[
+      {"name":"Isaac GR00T 1.7","category":"humanoid robot foundation model","source_url":"https://www.nvidia.com/en-us/industries/robotics/isaac-groot/"},
+      {"name":"Isaac Lab 3.0","category":"robot learning and simulation","source_url":"https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Advances-Isaac-Platform-for-General-Purpose-Robotics-With-New-Reference-Humanoid-Frameworks-Simulation-Pipelines-and-Data/default.aspx"},
+      {"name":"Jetson Thor","category":"robotics edge compute","source_url":"https://developer.nvidia.com/isaac/gr00t"}
+    ]},
+    {"company":"Boston Dynamics","sector":"industrial robotics","products":[
+      {"name":"Atlas","category":"industrial humanoid robot","source_url":"https://bostondynamics.com/products/atlas"},
+      {"name":"Spot","category":"mobile inspection robot","source_url":"https://bostondynamics.com/products/spot/"},
+      {"name":"Stretch","category":"warehouse mobile manipulator","source_url":"https://bostondynamics.com/products/"},
+      {"name":"Orbit","category":"robot fleet and enterprise intelligence software","source_url":"https://bostondynamics.com/products/orbit/"}
+    ]},
+    {"company":"Figure","sector":"humanoid robotics","products":[
+      {"name":"Figure 03","category":"general-purpose humanoid robot","source_url":"https://www.figure.ai/figure"},
+      {"name":"Helix","category":"vision-language-action robotics system","source_url":"https://www.figure.ai/helix"}
+    ]},
+    {"company":"Neuralink","sector":"brain-computer interfaces","products":[
+      {"name":"N1 Implant","category":"investigational brain-computer interface","source_url":"https://neuralink.com/trials/speech-restoration/"},
+      {"name":"VOICE Study","category":"clinical-trial programme for speech restoration","source_url":"https://neuralink.com/trials/speech-restoration/"}
+    ]}
+  ]
+}
