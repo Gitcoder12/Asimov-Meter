@@ -123,3 +123,10 @@ Start with [`AGENTS.md`](AGENTS.md) for repository-wide invariants, architecture
 3. Add benchmark/fixture cases for malformed URLs, Unicode/large notes, export consistency, and interrupted writes.
 
 **Verification status:** static source/test/methodology inspection only; test execution and real evidence-entry workflow remain unverified.
+
+---
+
+## Examples Used
+- Recording a sourced AI benefit in an education setting
+- Tracking a reported workplace impact with its population and time period
+- Comparing observations only when units and methods are compatible
