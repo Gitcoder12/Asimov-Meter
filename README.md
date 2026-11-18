@@ -123,3 +123,19 @@ Start with [`AGENTS.md`](AGENTS.md) for repository-wide invariants, architecture
 3. Add benchmark/fixture cases for malformed URLs, Unicode/large notes, export consistency, and interrupted writes.
 
 **Verification status:** static source/test/methodology inspection only; test execution and real evidence-entry workflow remain unverified.
+
+
+---
+
+## Branch Activity & Development History
+
+**Audit date:** 2026-11-18 · **Comparison base:** `main`
+
+| Branch | Difference from `main` | Observed work / changed paths |
+|---|---:|---|
+| `docs/agent-guidance-and-skills-20261116` | 0 ahead / 3 behind | No unique commits relative to current `main`; branch is behind |
+| `feat/company-landscape-visuals` | 7 / 1 | Company landscape dataset, visualization documentation, rendering tool and visualization tests |
+| `feat/evidence-ledger-mvp-20261116` | 0 / 17 | No unique commits relative to current `main`; branch is behind |
+| `feat/global-ai-robotics-intelligence-2026-11-16` | 0 / 2 | No unique commits relative to current `main`; branch is behind |
+
+**Verification boundary:** No open PRs were returned by the repository search at audit time. The company landscape branch changes data and visualizations; verify source citations, freshness and rendering tests before merging. No branches have been merged or deleted by this documentation update.
