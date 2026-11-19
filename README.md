@@ -130,3 +130,27 @@ Start with [`AGENTS.md`](AGENTS.md) for repository-wide invariants, architecture
 - Recording a sourced AI benefit in an education setting
 - Tracking a reported workplace impact with its population and time period
 - Comparing observations only when units and methods are compatible
+
+
+---
+
+## Comparison with Existing Open-Source Projects and Research Resources
+
+Asimov-Meter is documented as an evidence-first ledger for observed AI and robotics benefits, harms and unknown effects over time. It deliberately avoids a universal “AI impact score” and only summarizes compatible observations. The following resources provide adjacent incident-reporting and responsible-AI references.
+
+| Project / resource | Established focus | Relationship to Asimov-Meter |
+|---|---|---|
+| [AI Incident Database](https://incidentdatabase.ai/) | Public collection of reported AI incidents and harms | A key incident-reporting reference; Asimov-Meter's stated scope is broader, including benefits, mixed outcomes, unknown effects and quantitative observations with units/methods. |
+| [Microsoft Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) | Tools for model-level error analysis, interpretability and responsible-AI assessment | Focuses on evaluating specific ML systems; Asimov-Meter records sourced real-world impact observations across systems, sectors and time periods. |
+| [MLCommons AILuminate](https://github.com/mlcommons/ailuminate) | Safety evaluation benchmarks and risk assessment for AI systems | A model/system evaluation reference; Asimov-Meter is an evidence ledger for observed impacts rather than a benchmark suite or model safety score. |
+
+### Where Asimov-Meter is different
+- **Benefits and harms together:** the ledger records positive, negative, mixed and unknown outcomes rather than only incidents.
+- **Measurement context:** each observation captures system, sector, indicator, unit, period, population, method and source.
+- **No universal score:** summaries are restricted to compatible groups and the tool avoids inferring causality or filling missing data.
+
+### Where established projects are stronger
+The AI Incident Database has an established incident-reporting corpus; Responsible AI Toolbox and AILuminate provide specialized evaluation methods and resources. Asimov-Meter does not replace these systems or establish causality from a collection of observations.
+
+### Evidence and limitations
+Preserve the distinction between reported and independently reviewed evidence. Require source, population, measurement method, unit and time period for each observation. Do not aggregate incompatible studies or interpret correlation as causation. This is a data-model comparison, not a comprehensive AI-impact assessment or validated global index.
