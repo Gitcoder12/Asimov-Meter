@@ -154,3 +154,9 @@ The AI Incident Database has an established incident-reporting corpus; Responsib
 
 ### Evidence and limitations
 Preserve the distinction between reported and independently reviewed evidence. Require source, population, measurement method, unit and time period for each observation. Do not aggregate incompatible studies or interpret correlation as causation. This is a data-model comparison, not a comprehensive AI-impact assessment or validated global index.
+
+---
+
+## Repository navigation
+
+[Alphabetical file index](FILE_INDEX.md)
