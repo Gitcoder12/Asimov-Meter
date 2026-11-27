@@ -1,0 +1,36 @@
+# Alphabetical File Index
+
+> Generated from the `main` branch. Paths are listed alphabetically; this index does not imply that source modules should be renamed.
+
+**Tracked files:** 30
+
+- [`.agents/skills/comparability-and-trend-analysis/SKILL.md`](./.agents/skills/comparability-and-trend-analysis/SKILL.md)
+- [`.agents/skills/evidence-quality-review/SKILL.md`](./.agents/skills/evidence-quality-review/SKILL.md)
+- [`.agents/skills/multi-agent-review-handoff/SKILL.md`](./.agents/skills/multi-agent-review-handoff/SKILL.md)
+- [`.agents/skills/source-to-observation/SKILL.md`](./.agents/skills/source-to-observation/SKILL.md)
+- [`.claude/skills/comparability-and-trend-analysis/SKILL.md`](./.claude/skills/comparability-and-trend-analysis/SKILL.md)
+- [`.claude/skills/evidence-quality-review/SKILL.md`](./.claude/skills/evidence-quality-review/SKILL.md)
+- [`.claude/skills/multi-agent-review-handoff/SKILL.md`](./.claude/skills/multi-agent-review-handoff/SKILL.md)
+- [`.claude/skills/source-to-observation/SKILL.md`](./.claude/skills/source-to-observation/SKILL.md)
+- [`.github/workflows/tests.yml`](./.github/workflows/tests.yml)
+- [`.gitignore`](./.gitignore)
+- [`AGENTS.md`](./AGENTS.md)
+- [`asimov_meter.py`](./asimov_meter.py)
+- [`CLAUDE.md`](./CLAUDE.md)
+- [`data/company_landscape.json`](./data/company_landscape.json)
+- [`data/observation.schema.json`](./data/observation.schema.json)
+- [`data/observations.json`](./data/observations.json)
+- [`docs/COMPANY_LANDSCAPE_AND_VISUALS.md`](./docs/COMPANY_LANDSCAPE_AND_VISUALS.md)
+- [`docs/DATA_DICTIONARY.md`](./docs/DATA_DICTIONARY.md)
+- [`docs/METHODOLOGY.md`](./docs/METHODOLOGY.md)
+- [`examples/observation-template.json`](./examples/observation-template.json)
+- [`LICENSE`](./LICENSE)
+- [`Makefile`](./Makefile)
+- [`PROJECT_STATUS.md`](./PROJECT_STATUS.md)
+- [`pyproject.toml`](./pyproject.toml)
+- [`README.md`](./README.md)
+- [`SKILLS.md`](./SKILLS.md)
+- [`tests/test_asimov_meter.py`](./tests/test_asimov_meter.py)
+- [`tests/test_visualizations.py`](./tests/test_visualizations.py)
+- [`tools/render_company_mindmap.py`](./tools/render_company_mindmap.py)
+- [`visualizations.py`](./visualizations.py)
